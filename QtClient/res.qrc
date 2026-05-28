@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/chat.ico</file>
+        <file>icon/use.ico</file>
+        <file>stytle/systle.qss</file>
+        <file>icon/dvisible.ico</file>
+        <file>icon/visible.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,54 @@
+# Visual Studio user/local state
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+*.log
+*.tlog
+*.lastbuildstate
+
+# Local Codex/app artifacts
+.codex/
+
+# Python local/generated artifacts
+__pycache__/
+*.py[cod]
+
+# Local secrets/config
+config.ini
+
+# Temporary profiling and generated analysis output
+lo_profile*/
+matlab_outputs/
+doc_strings_*.txt
+doc_utf16_strings.txt
+
+# Course-design documents unrelated to the server source
+course_design_*.doc
+course_design_*.docx
+course_design_*.pdf
+数值计算方法课程设计_*.docx
+数值计算方法课程设计_*.pdf
+
+# Local generated helper scripts unrelated to the server source
+insert_course_design_answers*.py
+solve_course_design.m
+build_short_story_docx.py
+exam_work/

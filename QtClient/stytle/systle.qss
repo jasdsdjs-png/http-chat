@@ -1,0 +1,136 @@
+/* ==================== 全局样式 ==================== */
+QDialog, QMainWindow {
+    background-color: #f5f6fa;
+}
+
+QLabel {
+    color: #2d3436;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+#error_label[state='normal']{
+    color:green;
+    }
+#error_label[state='err']{
+    color:red;
+}
+
+/* ==================== 输入框 ==================== */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 14px;
+    color: #2d3436;
+    min-height: 25px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #74b9ff;
+}
+
+QLineEdit:hover {
+    border: 1px solid #a29bfe;
+}
+
+/* ==================== 按钮 ==================== */
+QPushButton {
+    background-color: #6c5ce7;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+QPushButton:hover {
+    background-color: #a29bfe;
+}
+
+QPushButton:pressed {
+    background-color: #5b4cc4;
+}
+
+/* 获取验证码按钮 */
+QPushButton#get_btn {
+    background-color: #00b894;
+    font-size: 12px;
+}
+
+QPushButton#get_btn:hover {
+    background-color: #55efc4;
+}
+
+/* 取消按钮 */
+QPushButton#cancel_btn {
+    background-color: #b2bec3;
+    color: #2d3436;
+}
+
+QPushButton#cancel_btn:hover {
+    background-color: #dfe6e9;
+}
+
+/* ==================== 忘记密码标签 ==================== */
+QLabel#foget_label {
+    color: #6c5ce7;
+    font-size: 12px;
+}
+
+QLabel#foget_label:hover {
+    color: #a29bfe;
+    text-decoration: underline;
+}
+
+/* ==================== 图标区域 ==================== */
+QLabel#icon_label {
+    background-color: transparent;
+}
+
+/* ==================== 菜单栏和状态栏 ==================== */
+QMenuBar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dcdde1;
+}
+
+QStatusBar {
+    background-color: #ffffff;
+    border-top: 1px solid #dcdde1;
+}
+
+#pass_visible[state='unvisible']{
+   border-image: url(:/res/unvisible.png);
+}
+
+#pass_visible[state='unvisible_hover']{
+   border-image: url(:/res/unvisible_hover.png);
+}
+
+#pass_visible[state='visible']{
+   border-image: url(:/res/visible.png);
+}
+
+#pass_visible[state='visible_hover']{
+   border-image: url(:/res/visible_hover.png);
+}
+
+
+#confirm_visible[state='unvisible']{
+   border-image: url(:/res/unvisible.png);
+}
+
+#confirm_visible[state='unvisible_hover']{
+   border-image: url(:/res/unvisible_hover.png);
+}
+
+#confirm_visible[state='visible']{
+   border-image: url(:/res/visible.png);
+}
+
+#confirm_visible[state='visible_hover']{
+   border-image: url(:/res/visible_hover.png);
+}

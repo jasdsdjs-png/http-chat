@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(MSBuildThisFileDirectory)..\boost_;D:\Organized_Files\Development_Libraries\json_cpp\jsoncpp\include;D:\Organized_Files\Development_Libraries\redis_code\vcpkg-2026.04.27\installed\x64-windows\include;$(ProjectDir)mysql\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Organized_Files\Development_Libraries\json_cpp\jsoncpp-build\lib\Debug;D:\Organized_Files\Development_Libraries\redis_code\vcpkg-2026.04.27\installed\x64-windows\debug\lib;D:\Organized_Files\Development_Libraries\redis_code\vcpkg-2026.04.27\installed\x64-windows\lib;$(MSBuildThisFileDirectory)..\boost_\lib\;$(ProjectDir)mysql\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>jsoncpp.lib;redis++.lib;hiredisd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
